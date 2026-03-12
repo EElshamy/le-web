@@ -1,0 +1,172 @@
+query getCart {
+  getCart {
+    code
+    message
+    success
+    data {
+      id
+      totalPrice
+      totalPriceAfterDiscount
+      netPrice
+      vat
+      vatAmount
+      discountAmount
+      totalQuantity
+      checkoutAvailable
+      lastAppliedCoupon
+      cartItems {
+        id
+        learningProgramId
+        learningProgramType
+        arAlert {
+          text
+          color
+        }
+        enAlert {
+          text
+          color
+        }
+        category {
+          enName
+          arName
+        }
+        lessonsCount
+        language
+        instructors {
+          arFullName
+          enFullName
+        }
+        arPriceMessage
+        enPriceMessage
+        adjustedPrice
+        learningProgram {
+          id
+          slug
+          code
+          thumbnail
+          level
+          learningTime
+          arTitle
+          enTitle
+          originalPrice
+          priceAfterDiscount
+        }
+        programs {
+          id
+          enTitle
+          arTitle
+          level
+          type
+          ACE_Certificate
+          isLiveCourse
+          learningTime
+          language
+          originalPrice
+          priceAfterDiscount
+          category {
+            enName
+            arName
+          }
+          users {
+            enFullName
+            arFullName
+          }
+          courseDetail {
+            lessonsCount
+          }
+        }
+      }
+    }
+  }
+}
+
+mutation createCartItem($input: CreateCartItemInput!) {
+  createCartItem(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation deleteCardItem($cartItemId: String!) {
+  deleteCardItem(cartItemId: $cartItemId) {
+    code
+    message
+    success
+  }
+}
+
+mutation createCheckOut($coupon_code: String) {
+  createCheckOut(coupon_code: $coupon_code) {
+    code
+    message
+    success
+    data
+  }
+}
+
+mutation buyNow($input: BuyNowInput!) {
+  buyNow(input: $input) {
+    code
+    message
+    success
+    data {
+      paymentIntentId
+      paymentIntentSecretKey
+      paymentLink
+      transactionCode
+    }
+  }
+}
+
+mutation createPaymentIntent($coupon_code: String) {
+  createPaymentIntent(coupon_code: $coupon_code) {
+    code
+    message
+    success
+    data {
+      paymentIntentId
+      paymentIntentSecretKey
+      paymentLink
+      transactionCode
+    }
+  }
+}
+
+query applyCoupon($coupon_code: String) {
+  applyCoupon(coupon_code: $coupon_code) {
+    data {
+      discountAmount
+    }
+    code
+    message
+    success
+  }
+}
+
+mutation deleteCoupon($id: String!) {
+  deleteCoupon(id: $id) {
+    code
+    message
+    success
+  }
+}
+
+mutation cancelCoupon {
+  cancelCoupon {
+    code
+    message
+    success
+  }
+}
+
+mutation applyCouponForBuyNow($input: ApplyCouponInput!) {
+  applyCouponForBuyNow(input: $input) {
+    code
+    message
+    success
+    data {
+      discountAmount
+    }
+  }
+}

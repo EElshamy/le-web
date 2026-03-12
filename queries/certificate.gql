@@ -1,0 +1,122 @@
+query myCertifications($paginate: PaginatorInput) {
+  myCertifications(paginate: $paginate) {
+    data {
+      items {
+        id
+        programTitle
+        learningProgramType
+        pending
+        previewArUrl
+        previewEnUrl
+        certificationType
+        createdAt
+      }
+    }
+  }
+}
+
+query certification($certificateId: String!) {
+  certification(certificateId: $certificateId) {
+    data {
+      id
+      programTitle
+      learningProgramType
+      createdAt
+      previewArUrl
+      previewEnUrl
+      downloadArUrl
+      downloadEnUrl
+      pending
+      certificationType
+    }
+  }
+}
+
+query myCertifiedPrograms($paginate: PaginatorInput) {
+  myCertifiedPrograms(paginate: $paginate) {
+    data {
+      items {
+        diploma {
+          id
+          slug
+          arTitle
+          enTitle
+          thumbnail
+        }
+        certifiedCourses {
+          id
+          slug
+          enTitle
+          arTitle
+          thumbnail
+          type
+          isLiveCourse
+          certifications {
+            id
+            programTitle
+            serialNumber
+            previewArUrl
+            previewEnUrl
+            downloadArUrl
+            downloadEnUrl
+            pending
+            canDownload
+            createdAt
+            certificationType
+            learningProgramType
+          }
+        }
+      }
+    }
+  }
+}
+
+query courseCertifications($slug: String) {
+  course(slug: $slug) {
+    data {
+      certifications {
+        id
+        learningProgramId
+        learningProgramType
+        programTitle
+        createdAt
+        serialNumber
+        downloadArUrl
+        downloadEnUrl
+        previewEnUrl
+        previewArUrl
+        pending
+        certificationType
+      }
+    }
+  }
+}
+
+query diplomaCertification($slug: String) {
+  diploma(slug: $slug) {
+    data {
+      myCertification {
+        id
+        learningProgramId
+        learningProgramType
+        programTitle
+        createdAt
+        serialNumber
+        downloadArUrl
+        downloadEnUrl
+        previewEnUrl
+        previewArUrl
+        pending
+        certificationType
+      }
+    }
+  }
+}
+
+mutation createCertification($input: CreateCertificationInput!) {
+  createCertification(input: $input) {
+    code
+    message
+    success
+  }
+}

@@ -1,0 +1,22 @@
+mutation addReview($input: AddReviewInput!) {
+  addReview(input: $input) {
+    data {
+      id
+      learningProgramId
+      learningProgramType
+      review
+      rating
+    }
+    code
+    message
+    success
+  }
+}
+
+mutation deleteReview($reviewId: String!) {
+  deleteReview(reviewId: $reviewId) {
+    code
+    message
+    success
+  }
+}

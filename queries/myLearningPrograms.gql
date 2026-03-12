@@ -1,0 +1,83 @@
+query myInProgress($paginate: PaginatorInput) {
+  myInProgress(paginate: $paginate) {
+    code
+    message
+    success
+    data {
+      items {
+        id
+        slug
+        code
+        enTitle
+        arTitle
+        isLiveCourse
+        thumbnail
+        type
+        subscriptionExpiresAt
+        review {
+          id
+          rating
+        }
+        courseProgress {
+          completedLessons
+          totalLessons
+        }
+      }
+   pageInfo{
+    page
+    limit
+    totalCount
+    totalPages
+  }
+    }
+  }
+}
+
+query myCompleted($paginate: PaginatorInput)  {
+  myCompleted (paginate: $paginate) {
+    code
+    message
+    success
+    data {
+      items {
+        diploma {
+          id
+          slug
+          publicationStatus
+          code
+          arTitle
+          enTitle
+          thumbnail
+          progress {
+            totalProgramsCount
+            completedProgramsCount
+          }
+        }
+        completedCourses {
+          id
+          slug
+          code
+          arTitle
+          enTitle
+          thumbnail
+          type
+          subscriptionExpiresAt
+          review {
+            id
+            rating
+          }
+          courseProgress {
+            completedLessons
+            totalLessons
+          }
+        }
+      }
+         pageInfo{
+        page
+        limit
+        totalCount
+        totalPages
+      }
+    }
+  }
+}

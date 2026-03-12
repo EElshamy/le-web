@@ -1,0 +1,7 @@
+mutation addReport($input: AddReportInput!) {
+  addReport(input: $input) {
+    code
+    message
+    success
+  }
+}

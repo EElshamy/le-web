@@ -1,0 +1,47 @@
+query activeCategories($paginate: PaginatorInput) {
+  activeCategories(paginate: $paginate) {
+    code
+    message
+    success
+    data {
+      items {
+        id
+        enName
+        arName
+        localizedName
+        image
+        slug
+        canBeDeleted
+      }
+    }
+  }
+}
+
+query category($categoryId: Int, $slug: String) {
+  category(categoryId: $categoryId, slug: $slug) {
+    data {
+      id
+      arName
+      enName
+      image
+      localizedName
+    }
+  }
+}
+
+query categories($filter: CategoriesBoardFilter, $sort: CategoriesBoardSort) {
+  categories(filter: $filter, sort: $sort) {
+    code
+    message
+    success
+    data {
+      items {
+        id
+        slug
+        image
+        arName
+        enName
+      }
+    }
+  }
+}

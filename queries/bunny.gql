@@ -1,0 +1,11 @@
+query getBunnyViewVideoCredentials($input: GetBunnyViewVideoSignature!) {
+  getBunnyViewVideoCredentials(input: $input) {
+    data {
+      finalUrl
+      isReady
+    }
+    code
+    success
+    message
+  }
+}

@@ -1,0 +1,160 @@
+query learningProgramsExplore($sort: ExploreSort, $popularCoursesLimit: Int) {
+  learningProgramsExplore(
+    sort: $sort
+    popularCoursesLimit: $popularCoursesLimit
+  ) {
+    code
+    message
+    success
+    data {
+      popularCourses {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        type
+        learningTime
+        learningTimeUnit
+        # averageRating
+        # totalNumberOfRatings
+        # totalRatings
+        addedToCart
+        category {
+          slug
+          arName
+          enName
+        }
+
+        # users {
+        #   arFullName
+        #   enFullName
+        #   profilePicture
+        # }
+      }
+      latestWorkshops {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        type
+        learningTime
+        learningTimeUnit
+        # averageRating
+        # totalNumberOfRatings
+        # totalRatings
+        addedToCart
+        category {
+          slug
+          arName
+          enName
+        }
+
+        # users {
+        #   arFullName
+        #   enFullName
+        #   profilePicture
+        # }
+      }
+      liveCourses {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        type
+        learningTime
+        learningTimeUnit
+        addedToCart
+        # averageRating
+        # totalNumberOfRatings
+        # totalRatings
+        isLiveCourse
+        category {
+          slug
+          id
+          arName
+          enName
+        }
+
+        # users {
+        #   arFullName
+        #   enFullName
+        #   profilePicture
+        # }
+      }
+      pathDiplomas {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        level
+        learningTime
+        learningTimeUnit
+        # averageRating
+        # totalNumberOfRatings
+        # totalRatings
+        isAddedToCart
+        diplomaDetails {
+          coursesCount
+          workshopsCount
+        }
+        category {
+          slug
+          arName
+          enName
+        }
+        # users {
+        #   arFullName
+        #   enFullName
+        #   profilePicture
+        # }
+      }
+      subscriptionDiplomas {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        level
+        learningTime
+        learningTimeUnit
+        # averageRating
+        # totalNumberOfRatings
+        # totalRatings
+        isAddedToCart
+        accessDurationPerMonths
+        diplomaDetails {
+          coursesCount
+          workshopsCount
+        }
+        category {
+          slug
+          arName
+          enName
+        }
+        # users {
+        #   arFullName
+        #   enFullName
+        #   profilePicture
+        # }
+      }
+    }
+  }
+}

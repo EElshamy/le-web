@@ -1,0 +1,10 @@
+query activeJobTitles {
+  activeJobTitles {
+    data {
+      items {
+        id
+        localizedName
+      }
+    }
+  }
+}

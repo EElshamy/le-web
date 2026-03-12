@@ -1,0 +1,7 @@
+mutation registerAsLecturer($input: RegisterAsLecturerInput!) {
+  registerAsLecturer(input: $input) {
+    code
+    message
+    success
+  }
+}

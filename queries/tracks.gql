@@ -1,0 +1,188 @@
+query diplomasSite(
+  $filter: DiplomasSiteFilterInput
+  $paginate: PaginatorInput
+  $sort: DiplomaSortInput
+) {
+  diplomasSite(filter: $filter, paginate: $paginate, sort: $sort) {
+    data {
+      items {
+        id
+        slug
+        arTitle
+        enTitle
+        status
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        publicationStatus
+        level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        accessDurationPerMonths
+        diplomaDetails {
+          coursesCount
+          workshopsCount
+        }
+        category {
+          id
+          slug
+          arName
+          enName
+        }
+        lecturers {
+          id
+          enFullName
+          arFullName
+        }
+      }
+      pageInfo {
+        totalCount
+        totalPages
+      }
+    }
+    code
+    message
+    success
+  }
+}
+
+query diploma($diplomaId: String, $slug: String) {
+  diploma(diplomaId: $diplomaId, slug: $slug) {
+    data {
+      id
+      slug
+      arTitle
+      enTitle
+      status
+      thumbnail
+      originalPrice
+      priceAfterDiscount
+      createdAt
+      publicationStatus
+      level
+      learningTime
+      learningTimeUnit
+      averageRating
+      totalNumberOfRatings
+      totalRatings
+      accessDurationPerMonths
+      language
+      type
+      assigned
+      isAddedToCart
+      category {
+        id
+        slug
+        arName
+        enName
+      }
+      diplomaDetails {
+        promoVideo
+        enSummary
+        arSummary
+        arAbout
+        enAbout
+        coursesCount
+        workshopsCount
+      }
+      lecturers {
+        id
+        code
+        slug
+        arFullName
+        enFullName
+        profilePicture
+        lecturer {
+          id
+          enBio
+          arBio
+          bio
+          jobTitle {
+            arName
+            enName
+            localizedName
+          }
+        }
+      }
+      programs {
+        id
+        slug
+        type
+        arTitle
+        enTitle
+        thumbnail
+        language
+        level
+        priceAfterDiscount
+        originalPrice
+        learningTime
+        category {
+          enName
+          arName
+        }
+        courseDetail {
+          enAbout
+          arAbout
+          lessonsCount
+        }
+        users {
+          enFullName
+          arFullName
+        }
+        courseSections {
+          id
+          enTitle
+          arTitle
+          videosCount
+          articlesCount
+        }
+      }
+    }
+  }
+}
+
+query recommendedDiplomas($diplomaId: String!, $filter:  RecommendedDiplomasFilterInput) {
+  recommendedDiplomas(diplomaId: $diplomaId,  filter: $filter) {
+    code
+    message
+    success
+    data {
+      id
+      slug
+      arTitle
+      enTitle
+      status
+      thumbnail
+      originalPrice
+      priceAfterDiscount
+      createdAt
+      publicationStatus
+      level
+      learningTime
+      learningTimeUnit
+      averageRating
+      totalNumberOfRatings
+      accessDurationPerMonths
+      totalRatings
+      diplomaDetails {
+        coursesCount
+        workshopsCount
+      }
+      category {
+        id
+        slug
+        arName
+        enName
+      }
+      lecturers {
+        id
+        enFullName
+        arFullName
+      }
+    }
+  }
+}

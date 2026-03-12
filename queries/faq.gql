@@ -1,0 +1,29 @@
+query userFaqs {
+  userFaqs {
+    code
+    message
+    success
+    data {
+      id
+      enQuestion
+      arQuestion
+      enAnswer
+      arAnswer
+    }
+  }
+}
+
+query lecturerFaqs {
+  lecturerFaqs {
+    code
+    message
+    success
+    data {
+      id
+      enQuestion
+      arQuestion
+      enAnswer
+      arAnswer
+    }
+  }
+}

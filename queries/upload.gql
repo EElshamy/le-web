@@ -1,0 +1,25 @@
+mutation uploadFile($file: Upload, $model: FileModelEnum) {
+  uploadFile(file: $file, model: $model) {
+    data
+    code
+    message
+    success
+  }
+}
+
+mutation generateUploadLink($input: GenerateUploadPreSignedUrlInput!) {
+  generateUploadLink(input: $input) {
+    data
+    code
+    message
+    success
+  }
+}
+
+mutation makeFilesPublicAfterUpload($input: [FileToMakePublic!]!) {
+  makeFilesPublicAfterUpload(input: $input) {
+    code
+    success
+    message
+  }
+}

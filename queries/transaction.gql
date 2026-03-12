@@ -1,0 +1,56 @@
+query getTransactionByCode($code: String!) {
+  getTransactionByCode(code: $code) {
+    data {
+      id
+      code
+      status
+      totalAmount
+      purchaseForAdmin {
+        coupon {
+          code
+        }
+        subTotalPrice
+        transactionPurchaseItems {
+          learningProgramId
+          type
+          originalPrice
+          priceAfterDiscount
+          arTitle
+          enTitle
+          learningTime
+          level
+          language
+          lessonsCount
+          category {
+            enName
+            arName
+          }
+          lecturersShares {
+            lecturerEnName
+            lecturerArName
+          }
+          diplomaPrograms {
+            id
+            enTitle
+            arTitle
+            level
+            priceAfterDiscount
+            level
+            language
+            originalPrice
+            priceAfterDiscount
+            learningTime
+            ACE_Certificate
+            courseDetail {
+              lessonsCount
+            }
+            category {
+              enName
+              arName
+            }
+          }
+        }
+      }
+    }
+  }
+}

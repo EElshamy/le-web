@@ -1,0 +1,135 @@
+query blogs(
+  $filter: BlogsFilter
+  $sort: BlogsSortInput
+  $paginate: PaginatorInput
+) {
+  blogs(filter: $filter, sort: $sort, paginate: $paginate) {
+    data {
+      items {
+        id
+        slug
+        code
+        enTitle
+        arTitle
+        createdAt
+        updatedAt
+        publishedAt
+        thumbnail
+        status
+        liked
+        category {
+          slug
+          arName
+          enName
+        }
+      }
+      pageInfo {
+        page
+        limit
+        totalCount
+        totalPages
+      }
+    }
+    code
+    success
+    message
+  }
+}
+
+query blog($blogId: String, $slug: String) {
+  blog(blogId: $blogId, slug: $slug) {
+    code
+    message
+    success
+    data {
+      id
+      slug
+      code
+      enTitle
+      arTitle
+      localizedTitle
+      enContent
+      arContent
+      localizedContent
+      thumbnail
+      altText
+      viewsCount
+      likesCount
+      sharesCount
+      publishedAt
+      createdAt
+      liked
+      lecturer {
+        id
+        enBio
+        arBio
+        linkedInUrl
+        instagramUrl
+        facebookUrl
+        user {
+          slug
+          profilePicture
+          arFullName
+          enFullName
+        }
+      }
+      tags {
+        localizedName
+      }
+      category {
+        slug
+        enName
+        arName
+        localizedName
+      }
+    }
+  }
+}
+
+query activeBlogCategoriesListBoard {
+  activeBlogCategoriesListBoard {
+    code
+    message
+    success
+    data {
+      id
+      localizedName
+      enName
+      arName
+      canBeDeleted
+    }
+  }
+}
+
+mutation toggleBlogLike($blogIds: [String!]!, $increment: Boolean!) {
+  toggleBlogLike(blogIds: $blogIds, increment: $increment) {
+    code
+    message
+    success
+  }
+}
+
+query recommendedBlogs($blogId: String!) {
+  recommendedBlogs(blogId: $blogId) {
+    data {
+      items {
+        id
+        slug
+        code
+        enTitle
+        arTitle
+        createdAt
+        updatedAt
+        publishedAt
+        thumbnail
+        status
+        liked
+        category {
+          slug
+          arName
+          enName
+        }
+      }
+    }
+  }
+}

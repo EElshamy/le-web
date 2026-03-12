@@ -1,0 +1,255 @@
+query me {
+  me {
+    data {
+      id
+      code
+      email
+      phone
+      token
+      favLang
+      arFullName
+      enFullName
+      firstName
+      lastName
+      arFirstName
+      arLastName
+      profilePicture
+      hasPassword
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+    code
+    message
+    success
+  }
+}
+
+mutation emailAndPasswordLogin($input: EmailAndPasswordLoginInput!) {
+  emailAndPasswordLogin(input: $input) {
+    data {
+      id
+      code
+      email
+      phone
+      token
+      favLang
+      arFullName
+      enFullName
+      profilePicture
+      hasPassword
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+    code
+    message
+    success
+  }
+}
+
+mutation registerAsUser($input: RegisterInput!) {
+  registerAsUser(input: $input) {
+    data {
+      id
+      code
+      email
+      phone
+      favLang
+      arFullName
+      enFullName
+      profilePicture
+      hasPassword
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+    code
+    message
+    success
+  }
+}
+
+mutation sendEmailVerificationCode($input: SendEmailVerificationCodeInput!) {
+  sendEmailVerificationCode(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation verifyUserVerificationCodeByEmail($input: VerifyUserByEmailInput!) {
+  verifyUserVerificationCodeByEmail(input: $input) {
+    data {
+      id
+      code
+      email
+      phone
+      token
+      favLang
+      arFullName
+      enFullName
+      profilePicture
+      hasPassword
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+    code
+    message
+    success
+  }
+}
+
+mutation logout {
+  logout {
+    code
+    message
+    success
+  }
+}
+
+mutation resetPasswordByEmail($input: ResetPasswordByEmailInput!) {
+  resetPasswordByEmail(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation verifyPasswordResetVerificationCode(
+  $input: VerifyForgetPasswordInput!
+) {
+  verifyPasswordResetVerificationCode(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation socialLogin($input: SocialLoginInput!) {
+  socialLogin(input: $input) {
+    code
+    message
+    success
+    data {
+      id
+      code
+      email
+      phone
+      token
+      favLang
+      arFullName
+      enFullName
+      profilePicture
+      hasPassword
+      arFirstName
+      arLastName
+      firstName
+      lastName
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+  }
+}
+
+mutation socialMerge($input: SocialMergeInput!) {
+  socialMerge(input: $input) {
+    code
+    message
+    success
+    data {
+      id
+      code
+      email
+      phone
+      token
+      favLang
+      arFullName
+      enFullName
+      profilePicture
+      hasPassword
+      arFirstName
+      arLastName
+      firstName
+      lastName
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+  }
+}
+
+query checkSocialProviderStatus($input: CheckSocialStatusInput!) {
+  checkSocialProviderStatus(input: $input) {
+    data {
+      actionRequired
+      user {
+        id
+        code
+        email
+        phone
+        token
+        favLang
+        arFullName
+        enFullName
+        profilePicture
+        hasPassword
+        arFirstName
+        arLastName
+        firstName
+        lastName
+        notificationsCount
+        cartItemsCount
+        country {
+          isoCode
+        }
+      }
+    }
+    success
+    message
+    code
+  }
+}
+
+mutation socialRegister($input: SocialRegisterInput!) {
+  socialRegister(input: $input) {
+    data {
+      id
+      code
+      email
+      phone
+      token
+      favLang
+      arFullName
+      enFullName
+      profilePicture
+      hasPassword
+      arFirstName
+      arLastName
+      firstName
+      lastName
+      notificationsCount
+      cartItemsCount
+      country {
+        isoCode
+      }
+    }
+    code
+    message
+    success
+  }
+}

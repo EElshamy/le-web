@@ -1,0 +1,47 @@
+mutation updateUserProfile($input: UpdateUserProfileInput!) {
+  updateUserProfile(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation changePassword($input: ChangePasswordInput!) {
+  changePassword(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation changeEmail($input: UpdateEmailInput!) {
+  changeEmail(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation updateProfilePicture($input: updateProfilePicture!) {
+  updateProfilePicture(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation deleteProfilePicture {
+  deleteProfilePicture {
+    code
+    message
+    success
+  }
+}
+
+mutation updatePhone($input: UpdatePhone!) {
+  updatePhone(input: $input) {
+    code
+    message
+    success
+  }
+}

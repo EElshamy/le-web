@@ -1,0 +1,62 @@
+query getMyTransactionsForUser($paginate: PaginatorInput) {
+  getMyTransactionsForUser(paginate: $paginate) {
+    code
+    message
+    success
+    data {
+      items {
+        id
+        code
+        arTitle
+        enTitle
+        status
+        createdAt
+        totalAmount
+        paymentDetails {
+          cardBrand
+        }
+        purchaseForAdmin {
+          transactionPurchaseItems {
+            id
+            type
+            arTitle
+            enTitle
+            originalPrice
+            priceAfterDiscount
+          }
+        }
+      }
+    }
+  }
+}
+
+query getInvoiceByTransactionId($id: String!) {
+  getInvoiceByTransactionId(id: $id) {
+    data {
+      enProvidedTo
+      arProvidedTo
+      invoiceDate
+      invoiceNumber
+      couponCode
+      totalAmountPaid
+      invoiceItems {
+        type
+        enName
+        arName
+        price
+        tax
+        amountPaid
+        discountCode
+      }
+    }
+  }
+}
+
+mutation downloadInvoice($input: TransactionInvoiceDownloadInput!) {
+  downloadInvoice(input: $input) {
+    data
+    code
+    message
+    success
+  }
+}

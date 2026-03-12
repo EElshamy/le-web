@@ -1,0 +1,386 @@
+query mostPopularCourses {
+  mostPopularCourses {
+    code
+    message
+    success
+    data {
+      id
+      arTitle
+      enTitle
+      status
+      thumbnail
+      originalPrice
+      priceAfterDiscount
+      createdAt
+      type
+      publicationStatus
+      level
+      learningTime
+      learningTimeUnit
+      averageRating
+      totalNumberOfRatings
+      totalRatings
+      slug
+      category {
+        id
+        slug
+        arName
+        enName
+      }
+      courseDetail {
+        approvedAt
+      }
+      users {
+        arFullName
+        enFullName
+        profilePicture
+      }
+    }
+  }
+}
+
+query courses(
+  $filter: GeneralSearchFilter
+  $paginate: PaginatorInput
+  $sort: CoursesSortSiteInput
+) {
+  courses(filter: $filter, paginate: $paginate, sort: $sort) {
+    code
+    message
+    success
+    data {
+      items {
+        id
+        arTitle
+        enTitle
+        status
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        type
+        slug
+        publicationStatus
+        level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        learningTime
+        learningTimeUnit
+        category {
+          id
+          slug
+          arName
+          enName
+        }
+        courseDetail {
+          approvedAt
+        }
+        users {
+          arFullName
+          enFullName
+          profilePicture
+        }
+      }
+      pageInfo {
+        totalPages
+      }
+    }
+  }
+}
+
+query course($courseId: String, $slug: String) {
+  course(courseId: $courseId, slug: $slug) {
+    data {
+      id
+      code
+      slug
+      enTitle
+      arTitle
+      title
+      type
+      level
+      thumbnail
+      language
+      originalPrice
+      priceAfterDiscount
+      averageRating
+      totalNumberOfRatings
+      addedToCart
+      assigned
+      isEnrolled
+      learningTime
+      learningTimeUnit
+      ACE_Certificate
+      isLiveCourse
+      courseDetail {
+        about
+        enAbout
+        arAbout
+        summary
+        enSummary
+        arSummary
+        enrolledUsersCount
+        videosCount
+        articlesCount
+        liveSessionsCount
+        lessonsCount
+        sectionsCount
+        quizzesCount
+        promoVideo
+        aceDaysToGetCertified
+      }
+      category {
+        slug
+        localizedName
+        arName
+        enName
+      }
+      users {
+        id
+        code
+        slug
+        arFullName
+        enFullName
+        profilePicture
+        lecturer {
+          id
+          enBio
+          arBio
+          bio
+          jobTitle {
+            arName
+            enName
+            localizedName
+          }
+        }
+      }
+      reviews {
+        id
+        review
+        rating
+        createdAt
+        user {
+          profilePicture
+          arFullName
+          enFullName
+        }
+      }
+    }
+  }
+}
+
+query sectionsAndLessonsByCourseId($courseId: ID!, $paginate: PaginatorInput) {
+  sectionsAndLessonsByCourseId(courseId: $courseId, paginate: $paginate) {
+    code
+    message
+    success
+    data {
+      items {
+        id
+        enTitle
+        arTitle
+        title
+        order
+        videosCount
+        articlesCount
+        lessons {
+          id
+          enTitle
+          arTitle
+          title
+          isPreview
+          learningTimeInMinutes
+          liveSessionStartAt
+          liveSessionEndAt
+          order
+          videoId
+          content
+          type
+          overview
+          resources {
+            url
+          }
+        }
+      }
+      pageInfo {
+        page
+        limit
+        totalCount
+        hasNext
+      }
+    }
+  }
+}
+
+query LearningProgramsByCategory($categoryId: Float, $slug: String) {
+  LearningProgramsByCategory(categoryId: $categoryId, slug: $slug) {
+    code
+    message
+    success
+    data {
+      Courses {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        # level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        category {
+          # id
+          arName
+          enName
+        }
+        # courseDetail {
+        #   approvedAt
+        # }
+      }
+      liveCourses {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        # level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        category {
+          # id
+          arName
+          enName
+        }
+        # courseDetail {
+        #   approvedAt
+        # }
+      }
+      Workshops {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        # level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        category {
+          id
+          arName
+          enName
+        }
+        # courseDetail {
+        #   approvedAt
+        # }
+      }
+      pathDiplomas {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        # level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        diplomaDetails {
+          coursesCount
+          workshopsCount
+        }
+        category {
+          # id
+          arName
+          enName
+        }
+      }
+      subscriptionDiplomas {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        # level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        accessDurationPerMonths
+        totalRatings
+        diplomaDetails {
+          coursesCount
+          workshopsCount
+        }
+        category {
+          # id
+          arName
+          enName
+        }
+      }
+    }
+  }
+}
+
+query recommendedCourses($courseId: String!, $courseType: CourseTypeEnum!) {
+  recommendedCourses(courseId: $courseId, courseType: $courseType) {
+    code
+    message
+    success
+    data {
+      id
+      arTitle
+      enTitle
+      status
+      thumbnail
+      originalPrice
+      priceAfterDiscount
+      createdAt
+      type
+      slug
+      publicationStatus
+      level
+      learningTime
+      learningTimeUnit
+      averageRating
+      totalNumberOfRatings
+      totalRatings
+      learningTime
+      learningTimeUnit
+      category {
+        id
+        slug
+        arName
+        enName
+      }
+      courseDetail {
+        approvedAt
+      }
+      users {
+        arFullName
+        enFullName
+        profilePicture
+      }
+    }
+  }
+}

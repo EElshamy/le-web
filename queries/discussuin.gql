@@ -1,0 +1,23 @@
+mutation toggleLikeComment($commentId: String) {
+  toggleLikeComment(commentId: $commentId) {
+    code
+    message
+    success
+  }
+}
+
+mutation createComment($input: CreateCommentInput!) {
+  createComment(input: $input) {
+    code
+    message
+    success
+  }
+}
+
+mutation deleteComment($commentId: String) {
+  deleteComment(commentId: $commentId) {
+    code
+    message
+    success
+  }
+}

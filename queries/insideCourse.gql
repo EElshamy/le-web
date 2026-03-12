@@ -1,0 +1,194 @@
+query insideCourseInfo($courseId: String!) {
+  course(courseId: $courseId) {
+    code
+    message
+    success
+    data {
+      id
+      code
+      title
+      enTitle
+      arTitle
+      thumbnail
+      type
+      averageRating
+      ACE_Certificate
+      totalNumberOfRatings
+      hasCertificate
+      isCompleted
+      courseDetail {
+        videosCount
+        articlesCount
+        aceDaysToGetCertified
+      }
+      users {
+        enFullName
+        arFullName
+        slug
+        id
+      }
+      courseProgress {
+        completedLessons
+        totalLessons
+      }
+      review {
+        id
+        learningProgramId
+        learningProgramType
+        review
+        rating
+      }
+      reviews {
+        id
+        review
+        rating
+        createdAt
+        user {
+          id
+          enFullName
+          arFullName
+        }
+      }
+    }
+  }
+}
+
+query insideCourseSallabusSite($courseId: ID!) {
+  insideCourseSallabusSite(courseId: $courseId) {
+    code
+    message
+    success
+    data {
+      id
+      courseSections {
+        enTitle
+        arTitle
+        title
+        videosCount
+        articlesCount
+        learningTimeInMinutes
+        resources {
+          url
+          type
+          downloadUrl
+        }
+        lessons {
+          id
+          enTitle
+          arTitle
+          title
+          type
+          isCompleted
+          isAvailable
+          learningTimeInMinutes
+          isAvailable
+        }
+      }
+      lastAccessedLesson {
+        id
+        title
+        type
+        learningTimeInMinutes
+      }
+      certifications {
+        previewArUrl
+        previewEnUrl
+        downloadArUrl
+        downloadEnUrl
+        createdAt
+      }
+    }
+  }
+}
+
+query comments($courseId: ID!) {
+  comments(courseId: $courseId) {
+    data {
+      items {
+        id
+        content
+        numberOfReplies
+        numberOfLikes
+        isLiked
+        createdAt
+        replies {
+          id
+          content
+          numberOfReplies
+          numberOfLikes
+          isLiked
+          createdAt
+          user {
+            id
+            enFullName
+            arFullName
+          }
+        }
+        user {
+          id
+          enFullName
+          arFullName
+        }
+      }
+    }
+  }
+}
+
+query lessonSite($lessonId: Int!) {
+  lessonSite(lessonId: $lessonId) {
+    code
+    message
+    success
+    data {
+      id
+      enTitle
+      arTitle
+      videoId
+      videoUrl
+      liveSessionStartAt
+      liveSessionEndAt
+      content
+      isCompleted
+      overview
+      type
+      passingGrade
+      canReSubmit
+      availableAttemptsForUser
+      attemptsAllowed
+      isPassed
+      numberOfQuestions
+      showCorrectAnswers
+      duration
+      userLastAttempt {
+        id
+        score
+        isPassed
+        numberOfCorrectAnswers
+        numberOfWrongAnswers
+      }
+      section {
+        id
+        title
+      }
+      nextLesson {
+        id
+      }
+      previousLesson {
+        id
+      }
+      resources {
+        url
+        type
+        downloadUrl
+      }
+    }
+  }
+}
+
+mutation toggleLessonCompletion($lessonId: ID!) {
+  toggleLessonCompletion(lessonId: $lessonId) {
+    code
+    message
+    success
+  }
+}

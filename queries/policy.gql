@@ -1,0 +1,11 @@
+query getPolicies {
+  getPolicies {
+    data {
+      id
+      title
+      contentEn
+      contentAr
+      updatedAt
+    }
+  }
+}

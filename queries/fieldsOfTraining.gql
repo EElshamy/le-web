@@ -1,0 +1,10 @@
+query activeFieldOfTrainings {
+  activeFieldOfTrainings {
+    data {
+      items {
+        id
+        localizedName
+      }
+    }
+  }
+}

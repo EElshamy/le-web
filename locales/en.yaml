@@ -1,0 +1,735 @@
+welcome: Welcome
+
+brand: Leiaqa
+
+home: Home
+
+courses: Courses
+workshops: Workshops
+tracks: Paths
+paths: Paths
+blogs: Blogs
+searchLearningPrograms: Search Learning Programs...
+register: Log in
+startNow: Start Now
+
+homeIntro: "Your pathway to fitness, nutrition, and wellness,"
+homeIntroSubText: "begins here"
+
+categories: "Categories"
+BeginYourEducationalJourneyWithATeamOfExpertsAndProgramsTailoredToYourFitnessNutritionAndOverallHealthGoals: Start your learning journey with an elite  experts, and programs tailored for your fitness, nutrition, and holistic health goals.
+
+embarkOnYourEducationalJourneyWith: Start your learning journey with our
+ourVariousCourses: wide range of courses
+allCourses: All courses
+fitness: Fitness
+plyometricTrainingAndJumpingPerformanceDevelopment: Plyometric training and jumping performance development
+4h: "4 hours"
+
+sportsInjuriesAndRehabilitation: Sports injuries and rehabilitation
+injuryRehabilitationForPersonalTrainers: Injury Rehabilitation for Personal Trainers
+healthAndImmunity: Health and immunity
+typesOfDiet: Types of diet
+
+sportsNutrition: Sports nutrition
+nutritionForAtrengthAndSpeedAthletes: Nutrition for strength and speed athletes
+trainingPrograms: Programs
+professionalismDesignedToQualifyAndDevelopYou: for your growth.
+allPrograms: All programs
+
+learnAboutExperiences: Experiences that
+inspireYourJourney: inspire your journey.
+allExperts: All experts
+professorOfAthleticTraining: Professor of athletic training
+sportsNutritionSpecialist: Sports nutrition specialist
+clinicalNutritionist: Clinical nutritionist
+fitnessTrainer: Fitness trainer
+publicHealthConsultant: Public health consultant
+
+choose: Choose
+yourEducationalPath: your educational path
+withAComprehensiveRangeOfSpecializedCourses: with a comprehensive range of specialized courses
+
+beAwareOfEverythingNewInTheWorld: Be aware of everything new in the world
+sportsAndNutrition: Sports and nutrition
+allTracks: All paths
+allBlogs: All blogs
+
+explore: Explore
+followUs: Follow us
+downloadApp: Download app
+whoAreWe: Who are we
+lecturers: lecturer
+joinAsLecturer: Join as lecturer
+contactUs: Contact us
+FAQs: FAQs
+
+linkedIn: LinkedIn
+instagram: Instagram
+facebook: Facebook
+whatsapp: Whatsapp
+
+termsAndConditions: Terms and conditions
+privacyPolicy: Privacy policy
+paymentPolicy: Payment policy
+allRightsReserved: All rights reserved
+makeByBaianat: Made by Baianat
+
+welcomeBack: Welcome back!
+loginToYourAccountNowAndStartLearning: Login to your account now and start learning
+email: Email
+password: Password
+enterYourEmail: Enter your email
+enterYourPassword: Enter your password
+login: Login
+forgotPassword: Forgot password?
+or: Or
+
+apple: Apple
+google: Google
+isARequiredField: is a required field
+passwordMinLength: Password must be at least 8 characters
+createYourAccountAndStartLearningNow: Create you account and start learning now
+createAccount: Create Account
+enterYourFirstName: Enter your first name
+enterYourLastName: Enter your last name
+firstName: First name
+lastName: Last name
+signup: Signup
+
+byRegisteringYouAgreeTo: By registering, you agree to
+and: and
+alreadyHaveAFitnessAccount: Already have a Fitness account ?
+dontHaveAccount: Don't have account?
+enterTheCodeSentToYou: Enter the code sent to you
+aMessageHasBeenSentToYourEmail: A message has been sent to your email.
+enterTheCodeToVerifyYourIdentity: enter the code to verify your identity.
+confirm: Confirm
+off: "OFF"
+buyNow: Buy now
+addToCart: Add to cart
+track: path
+moneyBackGuarantee: 14-Day money-back guarantee
+
+joinAsAnInstructor: Join as an instructor
+IfYourePassionateAboutFitnessAndDrivenToInspireJoinLeiaqaAsAnInstructorAndHelpCreateRealLastingImpact: If you're passionate about fitness and driven to inspire, join Leiaqa as an instructor and help make lasting positive impact.
+joinUsNow: Join us now
+
+getCertified: Get certified
+addThisCertificationToYourResumeToDemonstrateYourSkillsAndIncreaseYourChancesOfGettingNoticed: Add this certification to your resume to demonstrate your skills and increase your chances of getting noticed.
+studentsReview: Students reviews
+moreProgramsMightInterestYou: More programs might interest you
+shoppingCart: Shopping cart
+doYouHaveADiscountCoupon: Do you have a discount coupon ?
+enterCode: Enter code
+apply: Apply
+totalAmount: Total amount
+vat: VAT
+total: Total
+discountCoupon: Discount code
+joinUsAsLecturer: Join us as lecturer
+joinOurTeamOfFitnessInstructorsAndShareYourExperienceInTeachingOthers: Join our team of fitness instructors and share your experience in teaching others.
+personalInformation: Personal information
+fullNameInEnglish: Full name in English
+enterFullNameInEnglish: Enter full name in English
+fullNameInArabic: Full name in Arabic
+enterFullNameInArabic: Enter full name in Arabic
+chooseAStrongPassword: Choose a strong password
+nationality: Nationality
+chooseNationality: Choose nationality
+country: Country
+chooseCountry: Choose country
+professionalInformation: Professional information
+yearsOfExperience: Years of experience
+enterYearsOfExperience: Enter years of experience
+basicSpecialization: Basic specialization
+enterBasicSpecialization: Enter basic specialization
+jobTitle: Job title
+enterJobTitle: Enter job title
+aboutYou: About you
+aBriefAboutYouYourExperiencesAndYourAreaOfExpertise: A brief about you, your experiences and your area of expertise
+attachments: Attachments
+yourPersonalLinkedinAccountLink: Your personal LinkedIn account link
+yourPersonalFacebookAccountLink: Your personal Facebook account link
+yourPersonalOInstagramAccountLink: Your personal Instagram account link
+uploadCertificates: Upload certificates
+attachProfessionalOrAcademicCertificatesThatSupportYourExperienceAndSpecialization: Attach professional or academic certificates that support your experience and specialization.
+dragTheFileHereOrClickToSelectIt: Drag the file here or click to select it.
+maxSize: Maximum size
+formats: Formats
+SubmitTheRequest: Submit the request
+mustBeAtLeast: must be at least
+mustBeAtMost: must be at most
+characters: characters
+
+aboutProgram: About program
+programContent: Program content
+lesson: Lesson
+video: Video
+article: Article
+preview: Preview
+minutes: minutes
+taughtInArabic: Taught in Arabic
+taughtInEnglish: Taught in English
+courseDuration: Course duration
+day: Day
+hour: Hour
+second: Second
+level: level
+beginner: Beginner
+beginner_intermediate: Beginner to intermediate
+beginner_advanced: Beginner to advanced
+intermediate: Intermediate
+intermediate_advanced: Intermediate to advanced
+advanced: Advanced
+lessons: Lessons
+certifiedCertificateOfCompletionFromAce: Certified Certificate of Completion from ACE
+
+theLearningMaterialIsYoursForLife: The learning material is yours for life.
+course: Course
+workshop: Program
+diploma: Path
+save: Save
+cancel: Cancel
+addedToCartSuccessfully: Add to cart successfully
+goToCart: Go to cart
+programs: Programs
+itemsInCart: Items in cart
+paymentDetails: Payment details
+startYourEducationalJourneyAndChooseTheCoursesProgramsAndTracksThatSuitYou: Start your educational journey and choose the courses, programs, and paths that suit you.
+shoppingCartIsEmpty: Shopping cart is empty
+coursesSuggestedForYou: Courses suggested for you
+distinctiveTrainingPrograms: Distinctive training programs
+integratedEducationalPaths: Integrated educational paths
+completePayment: Complete payment
+lessonPreview: Lesson preview
+developYourSkillsInFitnessNutritionAndHealthThroughSpecializedScientificCoursesSupervisedByCertifiedExperts: Develop your skills in fitness, nutrition, and health through specialized scientific courses supervised by certified experts.
+aceCertifiedTrainingProgramsAimToPrepareThoseInterestedInFitnessAndHealthThroughReliableScientificContentAndTheSupervisionOfSpecializedExperts: ACE-certified training programs aim to prepare those interested in fitness and health, through reliable scientific content and the supervision of specialized experts.
+
+carefullyDesignedLearningPathsThatLeadYouOnAGradualStructuredJourneyFromTheBasicsToSpecializationThroughASetOfInterconnectedCoursesInTheFieldsOfFitnessNutritionAndHealth: Carefully designed learning paths that lead you on a gradual, structured journey from the basics to specialization, through a set of interconnected courses in the fields of fitness, nutrition, and health.
+category: Category
+newestToOldest: Newest to oldest
+oldestToNewest: Oldest to newest
+noOptions: No options
+beginnerToIntermediate: Beginner to intermediate
+beginnerToAdvanced: Beginner to advanced
+experiences: Experience
+trusted: trusted
+meetOurEliteTeamOfCertifiedFitnessNutritionAndHealthExperts: Meet our elite team of certified fitness, nutrition, and health experts.
+trustedExperience: Trusted experience
+aboutMe: About me
+myLearningJourney: My learning journey
+myCertificates: My certificates
+purchaseHistory: Purchase history
+accountSettings: Account settings
+logout: Logout
+inProgress: In progress
+completed: Completed
+continueLearning: Continue learning
+completedLessons: Completed Lessons
+yourRate: Your rate
+thereAreNoProgramsCurrentlyInProgress: There are no programs currently in progress.
+exploreOurEducationalProgramsAndStartJoiningThemToBeginYourJourneyTowardsLearningAndDevelopment: Explore our educational programs and start joining them to begin your journey towards learning and development.
+exploreEducationalContent: Explore learning programs
+discussion: Discussion
+resources: Resources
+reviews: reviews
+startLesson: Start lesson
+subject: Subject
+addComment: Add comment
+shareYourThoughts: Share your thoughts...
+addReview: Add review
+replyTo: reply to
+noSourcesAvailableYet: No sources available yet.
+thereAreNoReviewsYet: There are no reviews yet.
+beTheFirstToShareYourOpinionAboutThisContent: Be the first to share your opinion about this content.
+thereAreNoDiscussionsYet: There are no discussions yet.
+beTheFirstToJoinTheDiscussion: Be the first to join the discussion!
+evaluateEducationalContent: Evaluate educational content
+yourRatingHelpsUsImprove: Your rating helps us improve!
+rateYourExperience: Rate your experience
+howWasYourEducationalExperience: How was your educational experience?
+shareYourFeedbackOrSuggestionsWithUs: Share your feedback or suggestions with us.
+sendReview: Send review
+review: Review
+goToCourse: Go to course
+strongPasswordValidation: Password must include at least one special character, one uppercase letter, one lowercase letter, and one number.
+simplePasswordValidation: Password must include at least one  character and one number.
+
+yearsOfExperienceMustBeArLeastOne: Years of experience must be at least 1 and doesn't exceed 50
+phoneNumber: Phone number
+invalidPhone: Invalid phone
+phoneNumberPlaceholder: Enter phone number
+arabicOnlyValidation: This field must include only Arabic characters
+mustBeAValidEmail: must be a valid email
+certificates: Certificates
+thereIsNoCourseCurrently: There is no course at this moment
+newTrainingCoursesWillBeAddedSoonToHelpYouDevelopYourSkillsInVariousFields: New training courses will be added soon to help you develop your skills in various fields.
+thereAreNoProgramsCurrentlyAvailable: There are no programs currently available
+soonWeWillProvideSpecializedEducationalProgramsDesignedToAchieveYourGoalsProfessionally: Soon we will provide specialized educational programs designed to achieve your goals professionally.
+thereAreNoTracksCurrently: There are no paths currently
+soonYouWillFindOrganizedLearningPathsThatHelpYouLearnWithClearAndSystematicSteps: Soon you will find organized learning paths that help you learn with clear and systematic steps.
+progress: Progress
+completedLecture: Completed lecture
+back: Back
+content: Content
+nextLesson: Next lesson
+summary: Summary
+congratulations: Congratulations!
+youHaveCompletedTheCourse: You have completed the course
+toIssueAndDownloadYourCertificatePleaseCarefullyEnterYourFullNameInBothArabicAndEnglish: To issue and download your certificate, please carefully enter your full name in both Arabic and English.
+theNameYouEnterWillAppearExactlyAsItAppearsOnTheOfficialCertificateSoPleaseReviewItCarefullyBeforeSubmitting: The name you enter will appear exactly as it appears on the official certificate, so please review it carefully before submitting.
+generateCertificate: Generate certificate
+afterEnteringTheTwoNamesCorrectlyClickIssueCertificateToDownloadIt: After entering the two names correctly, click “Issue Certificate” to download it.
+completionData: Completion date
+downloadCertificate: Download certificate
+share: Share
+thankYouForSharingYourOpinion: Thank you for sharing your opinion!
+yourRatingHelpsImproveTheExperienceAndHelpsOthersMakeTheirDecision: Your rating helps improve the experience and helps others make their decision.
+shareCourse: Share course
+reportLecturer: Report lecturer
+reportCourse: Report course
+deleteReview: Delete review
+exploreLearningPrograms: Explore learning programs
+educationalContent: Educational content
+language: Language
+profile: Profile
+oopsSomethingWentWrong: Oops, something went wrong
+refreshThePageOrTryAgainLater: Refresh the page or try again later
+refreshThePage: Refresh the page
+startLearning: Start learning now
+certificateOfCompletion: Certificate of completion
+aboutTrack: About path
+trackContent: Path content
+view: View
+blog: Blog
+keepUpWithTheLatestInTheWorldOfSportsAndNutrition: Keep up with the latest in the world of sports and nutrition.
+topics: Topics
+settings: Settings
+personalInfo: Personal info
+socialLinks: Social links
+personalPhoto: Personal photo
+name: Name
+edit: Edit
+firstNameInArabic: First name in Arabic
+lastNameInArabic: Last name in Arabic
+firstNameInEnglish: First name in English
+lastNameInEnglish: Last name in English
+changePassword: Change password
+currentPassword: Current password
+newPassword: New password
+confirmNewPassword: Confirm new password
+passwordsMustMatch: Password doesnt match
+newPasswordMustBeDifferent: Your new password cannot be the same as your current password.
+purchaseHistoryHeader: Purchase history
+invoiceNo: Invoice No.
+purchases: Purchases
+status: Status
+purchaseDate: Purchase date
+amountPaid: Amount paid
+paymentMethod: Payment method
+viewInvoice: Invoice
+youHaveNoPurchasesYet: You have no purchases yet
+onceThePurchaseIsCompleteTheTransactionWillBeSavedSoYouCanReferToItLaterOrDownloadAnInvoice: Once the purchase is complete, the transaction will be saved so you can refer to it later or download an invoice.
+success: Success
+pending: Pending
+refunded: Refunded
+invoice: Invoice
+downloadInvoice: Download invoice
+providedBy: Provided by
+providedTo: Provided to
+transactionDetails: Transaction details
+invoiceNumber: Invoice number
+invoiceDate: Invoice date
+price: Price
+discountCode: Discount code
+tax: Tax
+totalPaidAmount: Total amount
+lastUpdate: Last update
+whyLeiaqa: Why choose Leiaqa?
+variedEducationalContent: Varied educational content
+extensiveTopicCoverage: Extensive topic coverage
+premiumArabicContent: Premium Arabic content
+reliableAndCertifiedContent: Reliable and certified content
+ourVision: Our vision
+vision: Building a community that is capable of making conscious, science-based health decisions by making specialized educational content in fitness and nutrition accessible to every Arabic speaker.
+ourMission: Our mission
+mission: Leiaqa aims to provide reliable educational content in Arabic that combines scientific knowledge with practical application, empowering individuals to make conscious, science-based health decisions.
+theFirstArabicPlatformSpecializedInTeachingNutritionPublicWellnessAndPhysicalFitness: The first Arabic platform specialized in teaching nutrition, public Wellness, and physical fitness.
+weOfferReliableScientificCoursesInArabicSupervisedByAnEliteGroupOfAcademicExpertsAndCertifiedTrainersWhoCombineKnowledgeWithPracticalExperience: We offer reliable scientific courses in Arabic, supervised by an elite group of academic experts and certified trainers who combine knowledge with practical experience.
+notifications: Notifications
+noNotificationsYet: No notifications yet
+youllSeeUpdatesHereAboutYourCoursesProgramsAndLearningProgress: You’ll see updates here about your courses, programs, and learning progress.
+paymentSuccessful: Payment successful!
+yourLearningJourneyStartsNowGoToYourProgramsAndBeginLearning: Your learning journey starts now. Go to your programs and begin learning.
+paymentFailed: Payment failed!
+oopsSomethingWentWrongPleaseTryAgainOrUseAnotherPaymentMethodIfTheProblemContinuesContactOurSupportTeamForHelp: Oops! Something went wrong. Please try again or use another payment method. If the problem continues, contact our support team for help
+tryAgain: Try again
+contactSupport: Contact support
+youDontHaveAnyCertificatesYet: You don't have any certificates yet
+keepGoingWithYourLearningJourneyYourCertificatesWillBeWaitingForYouHereSoon: Keep going with your learning journey; your certificates will be waiting for you here soon.
+reportReason: Report reason
+selectReason: Select reason
+additionalNotes: Additional notes
+provideAnyDetailsThatHelpUsBetterUnderstandTheIssue: Provide any details that help us better understand the issue
+reportLecturerSubTitle: If you had an issue with an instructor, you can report it. We’ll review it confidentially.
+inappropriateContent: Inappropriate content
+spam: Spam
+harassment: Harassment
+misinformation: Misinformation
+privacyViolation: Privacy violation
+offTopic: Off topic
+falseClaims: False claims
+submitReport: Submit report
+areYouSureYouWantToDeleteYourReview: Are you sure you want to delete your review?
+delete: Delete
+
+shareThisCourseWithOthersAndSpread: Share this course with others and spread
+shareLinkVia: Share link via
+orCopyLink: Or copy link
+copy: Copy
+x: X
+copied: Copied
+reportCourseTitle: Please select a reason and share any details to help us review the content. Your report will remain confidential.
+report: Report
+weWouldBeHappyToHelpAndAnswerAnyQuestionsYouHave: We would be happy to help and answer any questions you have
+enterFullName: Enter full name
+enterEmail: Enter email
+messageTitle: Message title
+enterMessageTitle: Enter message title
+message: Message
+typeYourMessageOrInquiryHere: Type your message or inquiry here
+selectSubject: Select subject
+contactUsSubject: Subject
+send: Send
+enterPhoneNumber: Enter phone number
+
+generalInquiry: General Inquiry
+courseAvailabilityAndDetails: Course Availability And Details
+technicalIssues: Technical Issues
+teachingOpportunities: Teaching Opportunities
+collaborationAndPartnershipInquiries: Collaboration And Partnership Inquiries
+other: Other
+technicalSupport: Technical Support
+accountAssistance: Account Assistance
+paymentAndBilling: Payment And Billing
+enrollmentAndRegistrationHelp: Enrollment And Registration Help
+certificationAndAccreditationQueries: Certification And Accreditation Queries
+feedbackAndSuggestions: Feedback And Suggestions
+instructorOpportunities: Instructor Opportunities
+reportAnIssueOrBug: Report An Issue Or Bug
+messageSentSuccessfully: Message sent successfully!
+weWillReviewYourMessageAndGetBackToYouAsSoonAsPossible: We will review your message and get back to you as soon as possible.
+backToHome: Back to home
+search: Search
+exploreOurLearningPrograms: explore our learning programs
+startDivingIntoOurValuablePrograms: Start diving into our valuable programs
+viewAllResults: View all results
+thereIsNoBlogsCurrently: There is no blogs at this moment
+newBlogsWillBeAddedSoonToHelpYouDevelopYourSkillsInVariousFields: New blogs will be added soon to help you nourish your information in various fields.
+weWillReviewYourRequestAndGetBackToYouAsSoonAsPossible: We will review your request and get back to you as soon as possible.
+invalidOtp: Invalid otp
+youHaventCompletedAnyProgramsYet: You haven't completed any programs yet
+completeYourLearningJourneyToTheEndAndGetYourAccreditedCertificatesYourAchievementStartsWithAStep: Complete your learning journey to the end and get your accredited certificates. Your achievement starts with a step!
+browseBySections: Browse by sections
+trySearchingFor: Try searching for
+programForBeginners: Program for beginners
+strengthenImmunity: Strengthen immunity
+fitnessBasics: Fitness basics
+preWorkoutNutrition: Pre-workout nutrition
+reportReview: Report review
+pleaseSelectAReasonAndShareAnyDetailsToHelpUsReviewTheTheStudentReviewYourReportWillRemainConfidential: Please select a reason and share any details to help us review the the student review. Your report will remain confidential.
+somethingWentWrong: Something went wring
+forgetPassword: Forget password ?
+dontWorryEnterYourLeiaqaEmailAndWellSendYouAPasswordResetCode: Don't worry. Enter your Leiaqa email and we'll send you a password reset code
+sendCode: Send code
+backToLogin: Back to login
+changeYourPassword: Change your password
+createNewPasswordAndClickSaveToConfirm: Create new password and click save to confirm
+saveNewPassword: Save new password
+enterPassword: Enter password
+confirmPassword: Confirm password
+experts: Experts
+discount: Discount
+invalidCouponCode: Invalid coupon code
+noResultsFor: No results for
+viewReplies: View replies
+hideReplies: Hide replies
+reportComment: Report comment
+deleteComment: Delete comment
+pleaseSelectAReasonAndShareAnyDetailsToHelpUsReviewTheCommentYourReportWillRemainConfidential: Please select a reason and share any details to help us review the comment. Your report will remain confidential.
+areYouSureYouWantToDeleteYourComment: Are you sure you want to delete your comment ?
+congratulationsYouveCompletedTheCourse: Congratulations! You’ve completed the course!
+completedOn: Completed on
+emailChangedSuccessfully: Email changed successfully
+free: Free
+youMustCompleteThePreviousLessonToContinue: You must completed the previous lesson to continue
+hello: Hello!
+wereWorkingOnUniqueTrainingContentItWillBeAvailableShortly: We're working on unique training content, it will be available shortly.
+YouAreAlreadyAssigned: You are already assigned
+eventStartingIn: Event starting in
+overview: Overview
+duration: Duration
+start: Start
+addToCalender: Add to calender
+platform: Platform
+ended: Ended
+ongoing: Ongoing
+coursesWithoutThe: Course
+all: All
+new: New
+liveSession: Interactive session
+earnACertificateFromLeiaqaThatValidatesYourSuccessfulProgramCompletionAndReflectsYourProfessionalGrowth: Earn a certificate from Leiaqa that validates your successful program completion and reflects your professional growth.
+leiaqaCertificate: Leiaqa certificate
+aceCertificate: ACE certificate
+gainAnInternationallyRecognizedCertificateFromAceAccreditedByNccaUnlockingGlobalRecognitionAndCareerOpportunities: Gain an internationally recognized certificate from ACE, accredited by NCCA, unlocking global recognition and career opportunities.
+
+basicsOfSportsTraining: Sports training fundamentals
+weightLoss: Lose weight
+enhancingAthleticPerformance: Improving athletic performance
+injuryPrevention: Injury prevention
+
+thereIsNoLearningProgramsCurrently: There is no learning programs currently
+
+# SEO CONTENT - START
+leiaqaFirstArabicPlatformForLearningAboutWellnessNutritionAndFitness: Leiaqa - First Arabic platform for learning about wellness, nutrition, and fitness.
+scientificCoursesAndTrainingProgramsCertifiedByAceOnTheFirstArabicPlatformSpecializedInTeachingFieldsOfNutritionWellnessAndPhysicalFitness: Scientific courses and training programs certified by ACE, on the first Arabic platform specialized in teaching fields of nutrition, wellness, and physical fitness.
+
+liakasScientificCourses: Leiaqa's scientific courses
+comprehensiveScientificCoursesInTheFieldsOfPublicWellnessNutritionAndPhysicalFitness: Comprehensive scientific courses in the fields of public wellness, nutrition, and physical fitness.
+
+leiaqasEducationalPrograms: Leiaqa's educational programs
+aceCertifiedProgramsThatCombineScientificKnowledgeAndPracticalSkillsLedBySpecializedExperts: ACE-certified programs that combine scientific knowledge and practical skills, led by specialized experts.
+
+leiaqasIntegratedPaths: Leiaqa's integrated paths
+aVarietyOfEducationalCoursesAndTrainingProgramsInCustomizedPackagesWhetherYoureABeginnerOrAProfessionalYoullFindThePerfectPathThatSuitsYourGoals: A variety of educational courses and training programs in customized packages. Whether you're a beginner or a professional, you'll find the perfect path that suits your goals.
+
+leiaqaBlog: Leiaqa blog.
+learnAboutHealthyHabitsAndTheBestSportsPracticesThroughTipsFromLeiaqasCertifiedExperts: Learn about healthy habits and the best sports practices through tips from Leiaqa's certified experts.
+
+aboutLeiaqa: About Leiaqa.
+learnAboutLeiaqasVisionAndMissionToSpreadAHealthyLifestyleInTheArabWorld: Learn about Leiaqa's vision and mission to spread a healthy lifestyle in the Arab world.
+
+leiaqasCertifiedExperts: Leiaqa's certified experts.
+learnAboutOurCertifiedExpertsInPhysicalFitnessPublicWellnessAndIntegratedNutrition: Learn about our certified experts in physical fitness, public wellness, and integrated nutrition.
+
+joinAsALeiaqaLecturer: Join as a Leiaqa lecturer.
+joinLeiaqaTeamAndBecomeACertifiedExpertInAnyFieldOfHealthNutritionAndPhysicalFitness: Join Leiaqa team and become a certified expert in any field of health, nutrition, and physical fitness.
+
+contactTheLeiaqaTeam: Contact the Leiaqa team.
+contactTheLeiaqaSupportTeamForAssistanceAndInquiriesAboutHowWeWorks: Contact the Leiaqa support team for assistance and inquiries about how we works.
+
+privacyPolicyLeiaqa: Privacy policy - Leiaqa
+learnAboutOurPrivacyPolicyAndHowWeCollectUseAndProtectYourPersonalDataForASecureExperienceOnOurPlatform: Learn about our privacy policy and how we collect, use, and protect your personal data for a secure experience on our platform.
+
+termsAndConditionsLeiaqa: Terms and conditions - Leiaqa
+learnAboutYourRightsAndResponsibilitiesContentUsagePoliciesAndPlatformConductRulesToEnsureASafeUserExperience: Learn about your rights and responsibilities, content usage policies, and platform conduct rules to ensure a safe user experience.
+
+paymentPolicyLeiaqa: Payment policy - Leiaqa
+learnAboutPaymentMethodsForPurchasingCoursesAndTrainingProgramsEnsuringAllYourTransactionsAreProtectedOnOurPlatform: Learn about payment methods for purchasing courses and training programs, ensuring all your transactions are protected on our platform.
+
+leiaqaLiveWorkshops: leiaqa Interactive workshops
+joinLeiaqasInteractiveWorkshopsAndGetTheBestExercisesAndTipsForYourFitnessAtHome: Join Leiaqa's interactive workshops and get the best exercises and tips for your fitness at home.
+
+# SEO CONTENT - END
+
+articles: Articles
+quizDetails: Quiz details
+questions: Questions
+passingGrade: Passing Grade
+minute: Minute
+numberOfAllowedAttempts: Number of allowed attempts
+unlimited: Unlimited
+correctAnswersWillBeShownAfterSubmittingTheQuiz: Correct answers will be shown after submitting the quiz.
+startQuiz: Start quiz
+youSuccessfullyPassedThisExam: You successfully passed this exam.
+reviewAnswers: Review answers
+youHaventPassedThisExamYet: You haven't passed this exam yet.
+leave: Leave
+question: Question
+from: from
+reviewingYourAnswers: Reviewing your answers....
+wereNowReviewingYourTestResultsItWillTakeAFewMoment: We're now reviewing your test results. it will take a few moment.
+excellent: Excellent!
+youSuccessfullyPassedTheQuiz: You successfully passed the quiz
+quizResult: Quiz result
+correctAnswers: Correct answers
+incorrectAnswers: Incorrect answers
+retryQuiz: Try again
+goToNextLesson: Go to next lesson
+
+youDidntPassTheExamThisTime: You didn't pass the exam this time
+noWorriesYouCanAlwaysTryAgainAfterReviewingTheContentWeBelievePracticeLeadsToMastery: No worries! You can always try again after reviewing the content. We believe practice leads to mastery.
+continueQuiz: Continue quiz
+leaveQuiz: Leave
+areYouSure: Are you sure?
+youreDoingGreatIfYouLeaveYourAnswersWontBeSavedAndYoullHaveToStartOverNextTime: You're doing great! If you leave, your answers won't be saved, and you'll have to start over next time.
+
+youreDoingGreat: You're doing great!
+ifYouLeaveYourAnswersWontBeSavedAndYoullHaveToStartOverNextTime: If you leave, your answers won't be saved, and you'll have to start over next time.
+
+previousQuestion: Previous question
+nextQuestion: Next question
+quiz: Quiz
+submitQuiz: Submit quiz
+yourAnswer: Your answer
+correct: Correct
+incorrect: Incorrect
+correctAnswer: Correct answer
+attempt: Attempt/s
+madeBy: Made by
+baianat: Baianat
+forStudents: For students
+forInstructors: For instructors
+inPreparation: In preparation
+liveWorkshops: Interactive workshops
+allLives: All lives
+hangouts: Hangouts
+allHangs: All Hangouts
+
+live: Live
+thereIsNoLiveWorkshopsCurrently: There is no Interactive workshops currently
+newTrainingLiveWorkshopsWillBeAddedSoonToHelpYouDevelopYourSkillsInVariousFields: New training Interactive workshops will be added soon to help you develop your skills in various fields.
+learningPrograms: Learning programs
+exploreOurLearningMaterialGrowAtYourOwnPaceTheSkillsYouWillUseInTheDesignWorld: Explore our learning material, grow at your own pace the skills you will use in the design world.
+searchResults: Search results
+error: Error
+available: Available
+yourAceCertificateWillBeReadyIn7Days: Your ACE certificate will be ready in 7 days.
+
+joinLeiaqasCommunityInOurInteractiveWorkshopsAndDiscoverTheSessionScheduleThatSuitsYou: Join Leiaqa's community in our interactive workshops and discover the session schedule that suits you.
+uploadPhoto: Upload photo
+profilePictureUpdatedSuccessfully: Profile picture updated successfully
+deleteImage: Delete image
+profilePictureRemovedSuccessfully: Profile picture removed successfully
+userHasntAddedAPhoneNumber: User hasn’t added a phone number.
+explorePrograms: Explore programs
+viewMore: View more
+liveWorkshop: Interactive workshop
+signupNow: Register now
+
+yourConnectionSeemsUnstableThingsMightTakeLongerThanUsual: Your connection seems unstable. Things might take longer than usual.
+noInternetConnection: No internet connection
+completedLesson: Lesson Completed
+
+latestCourses: Latest courses
+latestPrograms: Latest programs
+latestLiveWorkshops: Latest Interactive workshops
+latestTracks: Latest tracks
+latestArticles: Latest articles
+telegram: Telegram
+completeProfile: Complete profile
+skip: Skip
+
+anAccountAlreadyUsesThisEmailAddress: An account already uses this email address.
+youAlreadyHaveAnAccountWithTheEmailAddress: You already have an account with the email address
+wouldYouLikeToLinkFacebookAsAnAnotherWayToLogIn: Would you like to link Facebook as an another way to log in?
+
+link: Link
+signInWithGoogle: Sign in with google
+signInWasCanceled: Signin was canceled
+aboutCourse: About course
+courseContent: Course content
+aboutWorkshop: About workshop
+
+injuryRehabilitation: Injury rehabilitation
+typesOfDiets: Types of diets
+healthySports: Healthy sports
+fundamentalsOfSportsTraining: Fundamentals of sports training
+anOtpHasBeenSentToYourEmail: An OTP has been sent to your email
+firstNameMustBeInEnglish: First name in English must include only English characters
+firstNameMustBeInArabic: First name in Arabic must include only Arabic characters
+
+youMustRegisterToCompleteThisProcess: You must register to complete this process
+
+everythingYouNeedToGrowYourSkillsInFitnessNutritionAndHealthAllInOnePlaceDiscoverAComprehensiveSelectionOfCoursesProgramsPathsAndLiveWorkshopsLedByOurPassionateTeamOfCertifiedExperts: Everything you need to grow your skills in fitness, nutrition, and health, all in one place. Discover a comprehensive selection of courses, programs, paths, and Interactive workshops led by our passionate team of certified experts.
+
+yourAceCertificateWillBeReadyIn: Your ACE certificate will be reading in
+days: days
+viewAllNotifications: View all notifications
+moreArticlesYouMightLike: More articles you might like
+moreCoursesYouMightLike: More courses you might like
+moreProgramsYouMightLike: More programs you might like
+failedToLoadCartDetails: Failed to load cart details
+morePathsYouMightLike: More paths you might like
+forAssistant: For Assistant
+pleaseEnterACouponCode: Please enter coupon code
+couponAppliedSuccessfully: Coupon applied successfully
+resendOtpAfter: Resend code in
+resendCode: Resend code
+gotACoupon: Got a coupon?
+ifYouHaveACouponCodeEnterItToGetADiscountOnYourBill: If you have a coupon code, enter it to get a discount on your bill.
+proceedToPayment: Proceed to payment
+continueWithoutCoupon: Continue without coupon
+viewPathPrograms: View path programs
+
+english: English version
+arabic: Arabic version
+
+selectAtLeaseOneStar: Select at least one star
+filters: Filters
+cleanAll: Clear all
+reset: Reset
+loading: Loading...
+pleaseWaitLoadingGoogle: Please wait, loading google sdk
+connectionTimeout: Connection timeout
+accountCreatedSuccessfully: Account created successfully
+exit: Exit
+connect: Connect
+replace: Replace
+facebookMergeSameProvider: You can replace the current Facebook account with a new one from the same provider
+loggingIn: Logging in...
+invalidEmail: Invalid email
+requiredField: Required field
+invalidPhoneNumber: Invalid phone number
+registrationFailed: Registration failed
+verifying: Verifying...
+changeEmailOrBack: Change email or back
+processing: Processing...
+sending: Sending...
+saving: Saving...
+passwordResetSuccess: Password reset success
+validation:
+  required: "This field is required"
+  min: "Must be at least {min} characters"
+  max: "Must be at most {max} characters"
+  nameFormat: "Name must contain letters only"
+subscriptions: Subscriptions
+aCollectionOfLiveCoursesAndWorkshopsCombinedIntoOneSubscriptionGivingYouAComprehensiveLearningExperienceToDevelopYourSkills: A collection of Interactive courses and workshops combined into one subscription giving you a comprehensive learning experience to develop your skills.
+educationalSubscriptions: Educational subscriptions
+thereAreNoSubscriptionsCurrently: There are no subscriptions currently
+soonYouWillFindOrganizedLearningSubscriptionsThatHelpYouLearnWithClearAndSystematicSteps: Soon you will find organized learning subscriptions that help you learn with clear and systematic steps.
+subscriptionDuration: Subscription duration
+month: month
+oneMonth: month
+2Months: months
+months: months
+months2: months
+ExpiresOn: Expires on
+aboutSubscription: About subscription
+subscriptionContent: Subscription content
+allSubscriptions: All subscriptions
+moreSubscriptionsYouMightLike: More subscriptions you might like
+codeResentSuccessfully: Code resent successfully
+resendFailed: Resend failed
+passwordMaxLength: Password must be at most 25 characters
+passwordCannotContainSpaces: Password cannot contain spaces
+passwordCannotContainSpecialCharacters: Password cannot contain special characters
+passwordMustContainAtLeastOneLetter: Password must contain at least one letter
+passwordMustContainAtLeastOneNumber: Password must contain at least one number
+exploreSubscriptions: Explore subscriptions
+latestSubscriptions: Latest subscriptions
+
+reviewsTitle: Our Students' Reviews
+
+downloadAppNow: Download the app now
+
+appDescription: Take your learning with you. Download the ClassesHub app and access your courses, certificates, and progress on the go!
+
+liveSessions: Interactive sessions
+
+signInWithFacebook: Sign in with Facebook
+
+reportBlog: Report blog
+shareBlog: Share blog
+reportBlogDescription: Please select a reason and share any details to help us review the content. Your report will remain confidential.

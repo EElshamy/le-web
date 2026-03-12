@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.leiaqa",
+      "sha256_cert_fingerprints": [
+        "91:02:AB:29:0E:3B:ED:DE:DB:EE:61:88:5A:48:20:D2:82:BA:14:9D:24:CC:2C:79:BE:DB:14:35:D4:6B:68:BF"
+      ]
+    }
+  }
+]

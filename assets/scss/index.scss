@@ -1,0 +1,78 @@
+body {
+  font-family: "Alexandria", sans-serif;
+  --at-apply: f-text-14-16;
+}
+
+.line-lg {
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --at-apply: lh-[1.37] fw-400;
+}
+
+.course-about {
+  max-width: 100%; /* Prevents overflow horizontally */
+  word-break: break-word; /* Break long words */
+  white-space: pre-wrap; /* Preserve line breaks */
+  overflow-wrap: break-word;
+  overflow: hidden; /* Hide any accidental overflow */
+  line-height: 1.6;
+  font-size: 14px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.course-about img {
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+.lecturerPageArticle {
+  text-align: end !important;
+  h1,
+  h2 {
+    margin-bottom: 14px !important;
+  }
+}
+[dir="ltr"] .lecturerPageArticle {
+  text-align: start !important;
+}
+
+.content-area {
+  padding: 0 20px;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word; /* For older browsers */
+
+  /* Ensure the container itself never exceeds screen width */
+  max-width: 100%;
+  overflow-x: hidden;
+
+  p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word; /* For older browsers */
+
+    /* Ensure the container itself never exceeds screen width */
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  ul {
+    list-style-type: disc; /* Adds the dots back */
+    padding-block-start: 20px; /* Adds indentation */
+    margin-bottom: 1rem;
+    // margin-top: 2rem;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+}

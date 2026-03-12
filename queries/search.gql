@@ -1,0 +1,71 @@
+query allSearch($filter: GeneralSearchFilter) {
+  allSearch(filter: $filter) {
+    code
+    message
+    success
+    data {
+      courses {
+        id
+        slug
+        arTitle
+        enTitle
+        type
+        thumbnail
+        category {
+          enName
+          arName
+        }
+      }
+      workshops {
+        id
+        slug
+        arTitle
+        enTitle
+        type
+        thumbnail
+        category {
+          enName
+          arName
+        }
+      }
+      diplomas {
+        id
+        slug
+        arTitle
+        enTitle
+        type
+        thumbnail
+        category {
+          enName
+          arName
+        }
+      }
+      blogs {
+        id
+        slug
+        arTitle
+        enTitle
+        thumbnail
+        category {
+          enName
+          arName
+        }
+      }
+    }
+  }
+}
+
+query SearchKeywords {
+  searchKeywords {
+    code
+    success
+    message
+    data {
+      id
+      arText
+      enText
+      createdAt
+      updatedAt
+    }
+  }
+}

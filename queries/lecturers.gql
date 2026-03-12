@@ -1,0 +1,147 @@
+query lecturers(
+  $filter: LecturersBoardFilter
+  $paginate: PaginatorInput
+  $sort: LecturersBoardSort
+) {
+  lecturers(filter: $filter, paginate: $paginate, sort: $sort) {
+    data {
+      items {
+        id
+        bio
+        enBio
+        arBio
+        status
+        cvUrl
+        jobTitle {
+          arName
+          enName
+          localizedName
+        }
+        user {
+          id
+          slug
+          arFullName
+          enFullName
+          firstName
+          lastName
+          code
+          email
+          unverifiedEmail
+          phone
+          role
+          isBlocked
+          isDeleted
+          favLang
+          token
+          lastActiveAt
+          createdAt
+          updatedAt
+          fullName
+          profilePicture
+        }
+      }
+      pageInfo {
+        totalCount
+        totalPages
+      }
+    }
+    code
+    success
+    message
+  }
+}
+
+query lecturer($lecturerId: String, $slug: String) {
+  lecturer(lecturerId: $lecturerId, slug: $slug) {
+    code
+    message
+    success
+    data {
+      id
+      bio
+      enBio
+      arBio
+      linkedInUrl
+      instagramUrl
+      facebookUrl
+      jobTitle {
+        arName
+        enName
+        localizedName
+      }
+      courses {
+        id
+        slug
+        arTitle
+        enTitle
+        status
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        type
+        publicationStatus
+        level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        isLiveCourse
+        category {
+          id
+          arName
+          enName
+        }
+        courseDetail {
+          approvedAt
+        }
+        users {
+          arFullName
+          enFullName
+          profilePicture
+        }
+      }
+      diplomas {
+        id
+        slug
+        arTitle
+        enTitle
+        status
+        thumbnail
+        originalPrice
+        priceAfterDiscount
+        createdAt
+        publicationStatus
+        accessDurationPerMonths
+        level
+        learningTime
+        learningTimeUnit
+        averageRating
+        totalNumberOfRatings
+        totalRatings
+        diplomaDetails {
+          coursesCount
+          workshopsCount
+        }
+        category {
+          id
+          arName
+          enName
+        }
+        users {
+          arFullName
+          enFullName
+          profilePicture
+        }
+      }
+      user {
+        id
+        slug
+        arFullName
+        enFullName
+        profilePicture
+      }
+    }
+  }
+}

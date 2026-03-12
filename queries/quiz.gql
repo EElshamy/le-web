@@ -1,0 +1,89 @@
+query getQuiz($lessonId: Float!) {
+  getQuiz(lessonId: $lessonId) {
+    code
+    message
+    success
+    data {
+      id
+      enTitle
+      arTitle
+      numberOfQuestions
+      showCorrectAnswers
+      duration
+      isPassed
+      userLastAttempt {
+        id
+        score
+        isPassed
+        numberOfCorrectAnswers
+        numberOfWrongAnswers
+      #    lesson{
+      #   canReSubmit
+      # }
+      }
+
+      questions {
+        id
+        isMultipleAnswers
+        enQuestionTitle
+        arQuestionTitle
+        answers {
+          id
+          enAnswerTitle
+          arAnswerTitle
+        }
+      }
+    }
+  }
+}
+
+query reviewAnswers($userAttemptId: String!) {
+  reviewAnswers(userAttemptId: $userAttemptId) {
+    code
+    message
+    success
+    data {
+      id
+      score
+      numberOfCorrectAnswers
+      numberOfWrongAnswers
+      #  lesson{
+      #   canReSubmit
+      # }
+      userAnswers {
+        isCorrect
+        question {
+          enQuestionTitle
+          arQuestionTitle
+          isMultipleAnswers
+          correctAnswers {
+            arAnswerTitle
+            enAnswerTitle
+          }
+        }
+        answers {
+          enAnswerTitle
+          arAnswerTitle
+        }
+      }
+    }
+  }
+}
+
+mutation submitQuiz($input: submitQuizInput!) {
+  submitQuiz(input: $input) {
+    data {
+      id
+      score
+      isPassed
+      numberOfCorrectAnswers
+      numberOfWrongAnswers
+      lesson{
+        canReSubmit
+      }
+    }
+    code
+    message
+    success
+  }
+}

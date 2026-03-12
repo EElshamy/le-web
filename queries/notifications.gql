@@ -1,0 +1,23 @@
+query mySiteNotifications($paginate: PaginatorInput) {
+  mySiteNotifications(paginate: $paginate) {
+    data {
+      items {
+        id
+        targetId
+        targetModel
+        enTitle
+        arTitle
+        enBody
+        arBody
+        url
+        seen
+        createdAt
+      }
+      pageInfo {
+        limit
+        totalPages
+        hasNext
+      }
+    }
+  }
+}
